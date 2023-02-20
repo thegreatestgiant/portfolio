@@ -1,9 +1,0 @@
-{
-    "extensions": [
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"blackgirlbytes.deploy-to-github-pages",
-		"tinkertrain.theme-panda"
-	]
-
-}
