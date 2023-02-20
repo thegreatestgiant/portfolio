@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
     for (const pageKey of Object.keys(data)) {
       const a = document.createElement("a");
-      a.href = pageKey.toLowerCase() === "home" ? "/" : pageKey === "Files" ? "//files.drshacker.systems" : `${pageKey.toLowerCase()}.html`;
+      a.href = pageKey.toLowerCase() === "home" ? "./" : pageKey === "Files" ? "//files.drshacker.systems" : `${pageKey.toLowerCase()}.html`;
       a.textContent = pageKey.replace(/(\d)/g, " $1").trim();
       document.querySelector("#navbar").appendChild(a);
     }
