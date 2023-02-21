@@ -1,8 +1,5 @@
 {
-    "Home": {
-      "h1": "Welcome to my DevOps Blog",
-      "p": "This is a mock blog post about DevOps. In this post, we'll cover some of the basics of DevOps, including its definition and benefits."
-    },
+    "Home": {},
     "Page1": {
       "h1": "What is DevOps?",
       "p": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to enable shorter development cycles and more frequent deployments.",
@@ -12,7 +9,7 @@
       "p-4": "DevOps can help organizations reduce time-to-market, improve software quality, and increase customer satisfaction by delivering new features and improvements more quickly."
     },
     "Page2": {
-      "h-1": "Benefits of DevOps",
+      "h1": "Benefits of DevOps",
       "p": "DevOps can provide numerous benefits to organizations, including increased collaboration, faster time-to-market, and improved software quality.",
       "p-1": "One of the key benefits of DevOps is increased collaboration between development and operations teams, which can help to break down silos and improve communication.",
       "p-2": "DevOps can also enable faster time-to-market by reducing the time it takes to deliver new features and improvements to users.",
