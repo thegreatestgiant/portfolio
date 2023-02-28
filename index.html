@@ -104,7 +104,7 @@
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <script src="script.js"></script>
     <template id="project-template">
-      <div class="cont">
+      <div id="grab" class="cont">
         <div class="projects">
           <div class="project-card">
             <h3></h3>
@@ -119,9 +119,9 @@
       const attach = document.getElementById("attach");
 
       const content = template.content.cloneNode(true);
-      console.log(content)
-      content.h3="testing 123"
-      content.p="testing 124"
+      console.log(content);
+      content.h3 = "testing 123";
+      content.p = "testing 124";
       attach.appendChild(content);
     </script>
   </body>
