@@ -1,6 +1,6 @@
 {
     "Home": {},
-    "Page1": {
+    "Preject1": {
       "h1": "What is DevOps?",
       "p": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to enable shorter development cycles and more frequent deployments.",
       "p-1": "DevOps is not just a tool or a technology, but rather a culture and a set of practices that promote collaboration and communication between development and operations teams.",
@@ -8,7 +8,7 @@
       "p-3": "DevOps has become increasingly popular in recent years as organizations look for ways to increase agility and deliver software more quickly and reliably.",
       "p-4": "DevOps can help organizations reduce time-to-market, improve software quality, and increase customer satisfaction by delivering new features and improvements more quickly."
     },
-    "Page2": {
+    "Project2": {
       "h1": "Benefits of DevOps",
       "p": "DevOps can provide numerous benefits to organizations, including increased collaboration, faster time-to-market, and improved software quality.",
       "p-1": "One of the key benefits of DevOps is increased collaboration between development and operations teams, which can help to break down silos and improve communication.",
