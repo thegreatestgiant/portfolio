@@ -104,12 +104,14 @@
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <script src="script.js"></script>
     <template id="project-template">
-      <div id="grab" class="cont">
+      <div class="cont">
         <div class="projects">
           <div class="project-card">
-            <h3 id="h3"></h3>
-            <p></p>
-            <div class="status"><i class="fas fa-check">Completed</i></div>
+            <h3 id="p-name"></h3>
+            <p id="p-tag"></p>
+            <div class="status">
+              <i class="fas fa-check" id="status">Completed</i>
+            </div>
           </div>
         </div>
       </div>
@@ -118,10 +120,10 @@
       const template = document.getElementById("project-template");
       const attach = document.getElementById("attach");
 
-      const content = template.content.cloneNode(true);
-      console.log(content);
-      content.h3 = "testing 123";
-      content.p = "testing 124";
+      const content = template.content.importNode(template, true);
+      content.getElementById("p-name").textContent = "Project 1";
+      content.getElementById("p-tag").textContent = "This is my project yay!";
+      content.getElementById("status").textContent = "Completed";
       attach.appendChild(content);
     </script>
   </body>
