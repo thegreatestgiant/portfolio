@@ -98,7 +98,11 @@
       </p>
 
       <h2 id="projects">Projects</h2>
-      <p>Here is a a short description of each project along with there status, you can view the full project by following the links in the navbar up <a href="./">top</a></p>
+      <p>
+        Here is a a short description of each project along with there status,
+        you can view the full project by following the links in the navbar up
+        <a href="./">top</a>
+      </p>
       <div class="cont">
         <div class="projects"></div>
       </div>
@@ -111,7 +115,7 @@
         <h3 id="p-name"></h3>
         <p id="p-tag"></p>
         <div class="status">
-          <i class="fas fa-check" id="status">Completed</i>
+          <i class="fas" id="status">Completed</i>
         </div>
       </div>
     </template>
@@ -120,15 +124,15 @@
         const { content } = document.getElementById("project-template");
         const cont = document.querySelector(".projects");
         const arr = await (await fetch("project.json")).json();
-        arr.forEach(({ name, desc, status }) => {
+        arr.forEach(({ name, desc, status, icon }) => {
           const clone = content.cloneNode(true);
-          clone.querySelector("#p-name").textContent = name;
-          clone.querySelector("#p-tag").textContent = desc;
-          clone.querySelector("#status").textContent = status;
+          clone.getElementById("p-name").textContent = name;
+          clone.getElementById("p-tag").textContent = desc;
+          clone.getElementById("status").textContent = status;
+          clone.getElementById("status").classList.add(icon);
           cont.appendChild(clone);
         });
       }
-
       loadProjects().catch(console.error);
     </script>
   </body>

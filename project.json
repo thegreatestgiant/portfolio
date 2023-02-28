@@ -2,21 +2,25 @@
   {
     "name": "Project 1",
     "desc": "this is cool",
-    "status": " Complete"
+    "status": " Complete",
+    "icon": "fa-check"
   },
   {
     "name": "Project 2",
     "desc": "I am real",
-    "status": " In Progress"
+    "status": " In Progress",
+    "icon": "fa-gear"
   },
   {
     "name": "Project 3",
     "desc": "what line again",
-    "status": " Planned"
+    "status": " Planned",
+    "icon": "fa-clock"
   },
   {
     "name": "Project 4",
     "desc": "we can do this",
-    "status": " Complete"
+    "status": " Complete",
+    "icon": "fa-hourglass"
   }
 ]
