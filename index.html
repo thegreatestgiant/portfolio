@@ -125,14 +125,9 @@
       </div>
     </template>
     <script>
-      var arr = [
-        { name: "Project 1", desc: "this is cool", status: " Complete" },
-        { name: "Project 2", desc: "I am real", status: " In Progress" },
-        { name: "Project 3", desc: "what line again", status: " Planned" },
-        { name: "Project 4", desc: "we can do this", status: " Complete" },
-      ];
       const template = document.getElementById("project-template");
       const cont = document.querySelector(".projects");
+      const data = await (await fetch("source.json")).json();
 
       for (var i = 0; i < arr.length; i++) {
         const clone = document.importNode(template.content, true);
