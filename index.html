@@ -108,8 +108,7 @@
         </div>
       </div> -->
       <div class="cont">
-        <div class="projects">
-        </div>
+        <div class="projects"></div>
       </div>
     </div>
 
@@ -125,18 +124,20 @@
       </div>
     </template>
     <script>
-      const template = document.getElementById("project-template");
-      const cont = document.querySelector(".projects");
-      const data = await (await fetch("source.json")).json();
-
-      for (var i = 0; i < arr.length; i++) {
-        const clone = document.importNode(template.content, true);
-        const p = arr[i];
-        clone.getElementById("p-name").textContent = p.name;
-        clone.getElementById("p-tag").textContent = p.desc;
-        clone.getElementById("status").textContent = p.status;
-        cont.appendChild(clone);
+      async function loadProjects() {
+        const { content } = document.getElementById("project-template");
+        const cont = document.querySelector(".projects");
+        const arr = await (await fetch("project.json")).json();
+        arr.forEach(({ name, desc, status }) => {
+          const clone = content.cloneNode(true);
+          clone.querySelector("#p-name").textContent = name;
+          clone.querySelector("#p-tag").textContent = desc;
+          clone.querySelector("#status").textContent = status;
+          cont.appendChild(clone);
+        });
       }
+
+      loadProjects().catch(console.error);
     </script>
   </body>
 </html>
