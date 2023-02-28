@@ -120,7 +120,7 @@
       const template = document.getElementById("project-template");
       const attach = document.getElementById("attach");
 
-      const content = document.content.importNode(template.content, true);
+      const content = document.importNode(template.content, true);
       content.getElementById("p-name").textContent = "Project 1";
       content.getElementById("p-tag").textContent = "This is my project yay!";
       content.getElementById("status").textContent = "Completed";
