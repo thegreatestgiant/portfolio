@@ -98,17 +98,28 @@
       </p>
 
       <h2 id="projects">Projects</h2>
+      <div id="attach"></div>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <script src="script.js"></script>
+    <template id="project-template">
       <div class="cont">
         <div class="projects">
           <div class="project-card">
-            <h3>Project 1</h3>
-            <p>This is what it does, cool hey?</p>
-            <div class="status"><i class="fas fa-check"> Completed</i></div>
+            <h3></h3>
+            <p></p>
+            <div class="status"><i class="fas fa-check">Completed</i></div>
           </div>
         </div>
       </div>
-    </div>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <script src="script.js"></script>
+    </template>
+    <script>
+      const template = document.getElementById("prpject-template");
+      const attach = document.getElementById("attach");
+
+      const content = template.content.cloneNode(true);
+      attach.appendChild(content);
+    </script>
   </body>
 </html>
