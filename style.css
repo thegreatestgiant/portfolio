@@ -64,6 +64,7 @@ body {
     font-size: 24px;
     margin-bottom: 10px;
     color: #FF9797 !important;
+    text-shadow: 2px 2px 2px #840000;
 }
 
 .cont .project-card p {
