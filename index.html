@@ -127,9 +127,9 @@
     </template>
     <script>
       var arr = [
-        { name: "Project 1", desc: "this is cool", status: "Complete" },
-        { name: "Project 2", desc: "I am real", status: "In Progress" },
-        { name: "Project 4", desc: "we can do this", status: "Complete" },
+        { name: "Project 1", desc: "this is cool", status: " Complete" },
+        { name: "Project 2", desc: "I am real", status: " In Progress" },
+        { name: "Project 4", desc: "we can do this", status: " Complete" },
       ];
       const template = document.getElementById("project-template");
       const cont = document.querySelector(".attach");
@@ -138,7 +138,7 @@
         const clone = document.importNode(template.content, true);
         const p = arr[i];
         clone.getElementById("p-name").textContent = p.name;
-        clone.getElementById("p-tag").textContent = " " + p.desc;
+        clone.getElementById("p-tag").textContent = p.desc;
         clone.getElementById("status").textContent = p.status;
         cont.appendChild(clone);
       }
