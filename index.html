@@ -107,21 +107,20 @@
           </div>
         </div>
       </div> -->
-      <div class="attach"></div>
+      <div class="cont">
+        <div class="projects">
+        </div>
+      </div>
     </div>
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <script src="script.js"></script>
     <template id="project-template">
-      <div class="cont">
-        <div class="projects">
-          <div class="project-card">
-            <h3 id="p-name"></h3>
-            <p id="p-tag"></p>
-            <div class="status">
-              <i class="fas fa-check" id="status">Completed</i>
-            </div>
-          </div>
+      <div class="project-card">
+        <h3 id="p-name"></h3>
+        <p id="p-tag"></p>
+        <div class="status">
+          <i class="fas fa-check" id="status">Completed</i>
         </div>
       </div>
     </template>
@@ -132,7 +131,7 @@
         { name: "Project 4", desc: "we can do this", status: " Complete" },
       ];
       const template = document.getElementById("project-template");
-      const cont = document.querySelector(".attach");
+      const cont = document.querySelector(".projects");
 
       for (var i = 0; i < arr.length; i++) {
         const clone = document.importNode(template.content, true);
