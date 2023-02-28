@@ -125,7 +125,7 @@
     </template>
     <script>
       const template = document.getElementById("project-template");
-      const cont = document.getElementById(".cont");
+      const cont = document.querySelector(".cont");
 
       const content = document.importNode(template.content, true);
       content.getElementById("p-name").textContent = "Project 1";
