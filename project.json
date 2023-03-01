@@ -12,7 +12,7 @@
     "icon": "fa-check"
   },
   {
-    "name": "OneDrive Cloudflare Workers",
+    "name": "OneDrive CF Workers",
     "desc": "A secure and fast integration of OneDrive with Cloudflare Workers, providing users with an impressive front-end for their OneDrive files",
     "status": " Complete",
     "icon": "fa-check"
