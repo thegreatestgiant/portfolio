@@ -13,10 +13,9 @@ document.addEventListener("DOMContentLoaded", async function () {
         ? "./"
         : pageKey === "Files"
         ? "//files.drshacker.systems"
-        : `${pageKey.toLowerCase()}.html`;
+        : `${pageKey.toLowerCase().replace(/_/g, "")}.html`;
     a.textContent = pageKey
-      .replace(/(?<!^)(?=[A-Z])/g, " ")
-      .replace(/(\d)/g, " $1")
+      .replace(/_/g, " ")
       .trim();
     document.querySelector("#navbar").appendChild(a);
   }
