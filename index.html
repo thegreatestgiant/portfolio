@@ -74,10 +74,7 @@
         listed below.
       </p>
       <h2 id="contact">How to Contact Me</h2>
-      <p>
-        <strong><i class="fab fa-discord"></i> Discord</strong>The Greatest
-        Giant#0110
-      </p>
+      <p><strong><i class="fab fa-discord"></i> Discord</strong>The Greatest Giant#0110</p>
       <br />
       <p>
         <strong><i class="fas fa-envelope"></i> Email:</strong>
@@ -103,18 +100,12 @@
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <script src="script.js"></script>
     <template id="project-template">
-      <div class="project-card-container">
+      <div class="project-card">
         <h3 id="p-name"></h3>
         <p id="p-tag"></p>
         <div class="status">
           <i class="fas" id="status">Completed</i>
         </div>
-        <div class="content-expandable">
-          <p id="p-desc"></p>
-        </div>
-        <button class="read-more-btn" onclick="toggleContent(event)">
-          Read more
-        </button>
       </div>
     </template>
     <script>
@@ -132,22 +123,6 @@
         });
       }
       loadProjects().catch(console.error);
-      function toggleContent(event) {
-        const btn = event.target;
-        const container = btn.parentNode;
-        const content = container.querySelector(".content-expandable");
-        const desc = container.querySelector("#p-desc");
-
-        if (content.style.display === "none") {
-          content.style.display = "block";
-          btn.textContent = "Read less";
-          desc.style.display = "none";
-        } else {
-          content.style.display = "none";
-          btn.textContent = "Read More";
-          desc.style.display = "block";
-        }
-      }
     </script>
   </body>
 </html>
