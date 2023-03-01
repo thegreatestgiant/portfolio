@@ -16,11 +16,5 @@
     "desc": "what line again",
     "status": " Planned",
     "icon": "fa-clock"
-  },
-  {
-    "name": "Project 4",
-    "desc": "we can do this",
-    "status": " Complete",
-    "icon": "fa-hourglass-half"
   }
 ]
