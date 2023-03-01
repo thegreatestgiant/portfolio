@@ -1,20 +1,38 @@
 [
   {
-    "name": "Project 1",
-    "desc": "this is cool",
+    "name": "Personal Portfolio Website",
+    "desc": "A professional website showcasing my skills, experience, and projects",
     "status": " Complete",
     "icon": "fa-check"
   },
   {
-    "name": "Project 2",
-    "desc": "I am real",
-    "status": " In Progress",
-    "icon": "fa-cog"
+    "name": "OneDrive Vercel",
+    "desc": "A seamless integration of OneDrive with Vercel, enabling users to create a beautiful front-end for their OneDrive files.",
+    "status": " Complete",
+    "icon": "fa-check"
   },
   {
-    "name": "Project 3",
-    "desc": "what line again",
-    "status": " Planned",
-    "icon": "fa-clock"
+    "name": "OneDrive Cloudflare Workers",
+    "desc": "A secure and fast integration of OneDrive with Cloudflare Workers, providing users with an impressive front-end for their OneDrive files",
+    "status": " Complete",
+    "icon": "fa-check"
+  },
+  {
+    "name": "Gmscool",
+    "desc": "A complete redesign of a multi-functional website to focus solely on games, eliminating a space-consuming footer bar that displayed annoying game information. Optimized necessary files for improved performance and user experience while adding a large selection of games.",
+    "status": " Complete",
+    "icon": "fa-check"
+  },
+  {
+    "name": "Adguard Home",
+    "desc": "A guide on how to get Adguard Home to work on Oracle Cloud.",
+    "status": " Complete",
+    "icon": "fa-check"
+  },
+  {
+    "name":"L2TP VPN",
+    "desc":"A step-by-step guide on how to set up a secure and reliable L2TP VPN server for personal use",
+    "status":" Complete",
+    "icon":"fa-check"
   }
 ]
