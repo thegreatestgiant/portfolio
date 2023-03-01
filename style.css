@@ -68,12 +68,26 @@ body {
 }
 
 .cont .project-card p {
-    overflow: auto;
+    overflow-y: scroll;
     height: 85px;
     font-size: 18px;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0);
     color: #C92525 !important;
+    padding-right: 15px; /* add padding to prevent content from overlapping scrollbar */
+}
+
+/* style the scrollbar */
+.cont .project-card p::-webkit-scrollbar {
+    width: 10px;
+}
+
+.cont .project-card p::-webkit-scrollbar-track {
+    background-color: #202020;
+}
+
+.cont .project-card p::-webkit-scrollbar-thumb {
+    background-color: #C92525;
 }
 
 .cont .status {
