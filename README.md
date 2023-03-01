@@ -24,3 +24,15 @@ fas fa-clock
 ```
 fab fa-github
 ```
+- Discord 
+```
+fab fa-discord
+```
+- Email
+```
+fas fa-envelope
+```
+- Google Voice
+```
+fas fa-phone-volume
+```
