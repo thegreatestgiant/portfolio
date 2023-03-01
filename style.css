@@ -50,6 +50,35 @@ body {
     justify-content: space-between;
 }
 
+.cont .project-card-container {
+    height: 300px;
+    /* or any other value you prefer */
+    overflow: hidden;
+}
+
+.cont .project-card-container h3,
+.cont .project-card-container p {
+    margin-top: 0;
+    /* remove the default margin */
+    margin-bottom: 10px;
+}
+
+
+.cont .project-card-container .content-expandable {
+    display: none;
+}
+
+.cont .project-card-container .read-more-btn {
+    display: block;
+    margin-top: 10px;
+    background-color: #C92525 !important;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 .cont .project-card {
     width: calc(33.33% - 10px);
     padding: 20px;
@@ -89,7 +118,6 @@ body {
 .cont .status i {
     margin-right: 10px;
 }
-
 
 main {
     max-width: 800px;
