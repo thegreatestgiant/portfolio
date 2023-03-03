@@ -3,7 +3,10 @@
   "Portfolio": {
     "h1": "The beginning",
     "p": "I started off by makeing a starter template for a basic HTML, JS and CSS website. I started with the HTML makeing it really basic and creating divs with id's I could grab. I then created a json file with the template I wanted to use to create the rest of the website with; the file went something like...",
-    "code": "[\n\t\"Home\":{\n\t\t\"h1\":\"mock data\",\n\t\t \"p\":\"Mock Data\"\n\t},\n\t\"Page1\":{\n\t\t\"h1\":\"mock data\",\n\t\t\"p\":\"Mock Data\"\n\t},\n\t\"Page2\":{\n\t\t\"h1\":\"mock data\",\n \t\t\"p\":\"Mock Data\"\n \t},\n]"
+    "code": "[\n\t\"Home\":{\n\t\t\"h1\":\"mock data\",\n\t\t \"p\":\"Mock Data\"\n\t},\n\t\"Page1\":{\n\t\t\"h1\":\"mock data\",\n\t\t\"p\":\"Mock Data\"\n\t},\n\t\"Page2\":{\n\t\t\"h1\":\"mock data\",\n \t\t\"p\":\"Mock Data\"\n \t},\n]",
+    "p-1": "I created the javascript next, creating a fetch statement and rendering it on DOMloaded. I then procceded to create a function that rendered each value and then put that function into a for loop. I created the linear equivilent of it for the navbar. I then streamlined the entire code making both the content and navbar for each loops.",
+    "p-2": "My next focus was the CSS, I added a background and made sure the navbar and the content container was streamlined. I then proceeded to add a bunch of copy pasted bootstrap stuff to my CSS in order to make the Home page.",
+    "p-3": "The encaptarate of my attention next was making the cards, If irst created the card out HTMl and CSS then I moved it JS with Templates and a json file."
   },
   "OneDrive_Vercel": {},
   "OneDrive_Cf_Workers": {},
