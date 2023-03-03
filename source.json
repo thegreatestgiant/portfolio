@@ -1,12 +1,12 @@
 {
   "Home": {},
   "Portfolio": {
-    "h1": "The beginning",
-    "p": "I started off by makeing a starter template for a basic HTML, JS and CSS website. I started with the HTML makeing it really basic and creating divs with id's I could grab. I then created a json file with the template I wanted to use to create the rest of the website with; the file went something like...",
+    "h1": "Project Overview",
+    "p": "To create a professional-looking website, I began by designing a basic HTML, JS, and CSS template. I kept the HTML simple, using divs with specific IDs to make them easily accessible. Next, I created a JSON file to define the structure of the website, including a 'home' page and several other pages. The file looked something like this:",
     "code": "[\n  \"Home\":{\n    \"h1\":\"Welcome\",\n    \"p\":\"This is the homepage of the website.\"\n  },\n  \"Page1\":{\n    \"h1\":\"Page 1\",\n    \"p\":\"This is the first subpage of the website.\"\n  },\n  \"Page2\":{\n    \"h1\":\"Page 2\",\n    \"p\":\"This is the second subpage of the website.\"\n  }\n]",
-    "p-1": "I created the javascript next, creating a fetch statement and rendering it on DOMloaded. I then procceded to create a function that rendered each value and then put that function into a for loop. I created the linear equivilent of it for the navbar. I then streamlined the entire code making both the content and navbar for each loops.",
-    "p-2": "My next focus was the CSS, I added a background and made sure the navbar and the content container was streamlined. I then proceeded to add a bunch of copy pasted bootstrap stuff to my CSS in order to make the Home page.",
-    "p-3": "The encaptarate of my attention next was making the cards, If irst created the card out HTMl and CSS then I moved it JS with Templates and a json file."
+    "p-1": "Using JavaScript, I created a fetch statement to retrieve the JSON data and render it on the DOM when the page loaded. I then wrote a function to render each value and used a for loop to streamline the process. I did the same for the navbar, using a linear equivalent of the code. I continued to optimize the code, creating separate loops for the content and navbar.",
+    "p-2": "To improve the design, I added a background and streamlined the navbar and content container. I also used CSS to incorporate some Bootstrap components into the homepage.",
+    "p-3": "Finally, I created cards to display information about the various projects. I began by designing the card in HTML and CSS, then used templates and a JSON file to generate the content dynamically in JavaScript."
   },
   "OneDrive_Vercel": {},
   "OneDrive_Cf_Workers": {},
