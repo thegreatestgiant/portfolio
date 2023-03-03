@@ -130,6 +130,10 @@ main {
     overflow: auto;
 }
 
+main p {
+    color: #202020 !important;
+}
+
 header nav {
     display: flex;
     justify-content: center;
