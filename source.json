@@ -7,7 +7,7 @@
     "p-1": "Using JavaScript, I created a fetch statement to retrieve the JSON data and render it on the DOM when the page loaded. I then wrote a function to render each value and used a for loop to streamline the process. I did the same for the navbar, using a linear equivalent of the code. I continued to optimize the code, creating separate loops for the content and navbar.",
     "p-2": "To improve the design, I added a background and streamlined the navbar and content container. I also used CSS to incorporate some Bootstrap components into the homepage.",
     "p-3": "Finally, I created cards to display information about the various projects. I began by designing the card in HTML and CSS, then used templates and a JSON file to generate the content dynamically in JavaScript.",
-    "footer": "You can view this on my github"
+    "center": "You can view this on my github"
   },
   "OneDrive_Vercel": {},
   "OneDrive_Cf_Workers": {},
