@@ -3,7 +3,7 @@
   "Portfolio": {
     "h1": "The beginning",
     "p": "I started off by makeing a starter template for a basic HTML, JS and CSS website. I started with the HTML makeing it really basic and creating divs with id's I could grab. I then created a json file with the template I wanted to use to create the rest of the website with; the file went something like...",
-    "code": "[\n{\n\"Home\":[\n\"h1\":\"mock data\",\n\"p\":\"Mock Data\"]\n},{\n\"Page1\":[\n\"h1\":\"mock data\",\n\"p\":\"Mock Data\"]\n},{\n\"Page2:[\n\"h1\":\"mock data\",\n\"p\":\"Mock Data\"]\"\n}\n]"
+    "code": "[\n\t\"Home\":{\n\t\t\"h1\":\"mock data\",\n\t\t \"p\":\"Mock Data\"\n\t},\n\t\"Page1\":{\n\t\t\"h1\":\"mock data\",\n\t\t \"p\":\"Mock Data\"\n\t},\n\t\"Page2\":{\n\t\t\"h1\":\"mock data\",\n \t\t \"p\":\"Mock Data\"\n \t},\n]"
   },
   "OneDrive_Vercel": {},
   "OneDrive_Cf_Workers": {},
