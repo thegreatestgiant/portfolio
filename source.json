@@ -1,7 +1,11 @@
 {
   "Home": {},
   "Files": {},
-  "Portfolio": {},
+  "Portfolio": {
+    "h1": "The beginning",
+    "p": "I started off by makeing a starter template for a basic HTML, JS and CSS website. I started with the HTML makeing it really basic and creating divs with id's I could grab. I then created a json file with the template I wanted to use to create the rest of the website with; the file went something like...",
+    "code": "[{\"Home\":[\"h1\":\"mock data\",\"p\":\"Mock Data\"]},{\"Page1\":[\"h1\":\"mock data\",\"p\":\"Mock Data\"]},{\"Page2:[\"h1\":\"mock data\",\"p\":\"Mock Data\"]\"}]"
+  },
   "OneDrive_Vercel": {},
   "OneDrive_Cf_Workers": {},
   "Gmscool": {},
