@@ -15,13 +15,19 @@ body {
 }
 
 code {
-    font-family: monospace;
-    background-color: #eee;
-    padding: 0.2rem;
-  }
+    background-color: #333;
+    color: #ddd;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    border-radius: 5px;
+}
 
 .container h1,
-.container h2 { 
+.container h2 {
     position: relative;
     color: #00bfff !important;
 }
@@ -80,7 +86,8 @@ code {
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0);
     color: #C92525 !important;
-    padding-right: 15px; /* add padding to prevent content from overlapping scrollbar */
+    padding-right: 15px;
+    /* add padding to prevent content from overlapping scrollbar */
 }
 
 /* style the scrollbar */
@@ -111,81 +118,81 @@ code {
     margin-right: 10px;
 }
 
-    main {
-        max-width: 800px;
-        margin: 20px auto;
-        background: rgba(255, 255, 255, 0.7);
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px #444;
-        text-align: left;
-        overflow: auto;
-    }
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+    text-align: left;
+    overflow: auto;
+}
 
-    header nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(255, 255, 255, 0.1);
-        padding: 10px 0;
-    }
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
+}
 
-    header nav a {
-        text-decoration: none;
-        color: lightgray;
-        padding: 10px 20px;
-        display: inline-block;
-        position: relative;
-        transition: width 0.5s linear;
-    }
+header nav a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    transition: width 0.5s linear;
+}
 
-    header nav a:after {
-        content: "";
-        width: 0;
-        height: 4px;
-        position: absolute;
-        left: 0;
-        bottom: 0px;
-        background: lightgray;
-        transition: width .5s linear;
-    }
+header nav a:after {
+    content: "";
+    width: 0;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background: lightgray;
+    transition: width .5s linear;
+}
 
-    header nav a:hover:after {
-        width: 100%;
-    }
+header nav a:hover:after {
+    width: 100%;
+}
 
-    * {
-        color: #ffffff !important;
-    }
+* {
+    color: #ffffff !important;
+}
 
-    a.nav-link {
-        font-family: "Raleway";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 13px;
-    }
+a.nav-link {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+}
 
-    a.nav-link i {
-        margin-left: 10px;
-        margin-right: 8px;
-    }
+a.nav-link i {
+    margin-left: 10px;
+    margin-right: 8px;
+}
 
-    a.nav-link:hover {
-        text-decoration-line: underline;
-        color: #fffd46 !important;
-    }
+a.nav-link:hover {
+    text-decoration-line: underline;
+    color: #fffd46 !important;
+}
 
-    .nav-link:hover {
-        color: #0366d6;
-    }
+.nav-link:hover {
+    color: #0366d6;
+}
 
-    footer {
-        background-color: #444;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-    }
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
 
 /*! * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/) * Copyright 2011-2022 The Bootstrap Authors * Copyright 2011-2022 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE) */
 *,
