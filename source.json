@@ -9,6 +9,16 @@
     "p-3": "Finally, I created cards to display information about the various projects. I began by designing the card in HTML and CSS, then used templates and a JSON file to generate the content dynamically in JavaScript.",
     "center": "You can view this on my github"
   },
+  "Kavita": {
+    "h1":"What is Kavita?",
+    "p": "Lighting fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats.",
+    "h1-1": "How did I find out about Kavita",
+    "p-1": "From DBTech and this video right here - https://www.youtube.com/watch?v=W3p0Nz_TAxA&ab_channel=DBTech",
+    "h1-2": "How to install",
+    "p-2": "You can install this many ways but I decided to go the route of docker. You can find the code on their website, docker hub, or their github, and you can deploy either on your own server or on https://labs.play-with-docker.com/",
+    "p-3": "This is my version of the code",
+    "code": "services:\n    kavita:\n        image: kizaing/kavita:latest\n        volumes:\n            - ./books:/books\n            - ./data:/kavita/config\n        ports:\n            - \"5000:5000\"\n        restart: unless-stopped"
+  },
   "OneDrive_Vercel": {},
   "OneDrive_Cf_Workers": {},
   "Gmscool": {},
